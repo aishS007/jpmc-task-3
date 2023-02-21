@@ -31,7 +31,7 @@ class Graph extends Component<IProps, {}> {
       timestamp: "date",
       upper_bound: "float",
       lower_bound: "float",
-      trigger_part: "float",
+      trigger_alert: "float",
     };
 
     if (window.perspective && window.perspective.worker()) {
